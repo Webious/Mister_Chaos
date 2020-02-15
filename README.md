@@ -6,7 +6,7 @@ Mister_Chaos is a tool coded in batch, you must use it in administrator to have 
 
 ## Authors
 
-* **Webious_ Fawkes** - *Initial work* - [Webious_](https://github.com/Webious)
+* [Webious_ Fawkes](https://github.com/Webious)
 
 ## Acknowledgments
 
