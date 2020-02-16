@@ -47,7 +47,7 @@ echo  #  2. Folder Bombing                       #
 echo  #  3. File Bombing                         #
 echo  #  4. Browser Fork Bomb                    #
 echo  #  5. CMD Fork Bomb                        #
-echo  #  q. (Back to Main Menu)                  #
+echo  #  m. (Back to Main Menu)                  #
 echo  [==========================================] 
 echo.
 echo   Enter Selection_
@@ -107,7 +107,7 @@ echo  [==========================================]
 echo  #  1. Blue Screen                          #
 echo  #  2. Spam Process                         #
 echo  #  3. Porn Symphony                        #
-echo  #  q. (Back to Main Menu)                  #
+echo  #  m. (Back to Main Menu)                  #
 echo  [==========================================] 
 echo.
 echo   Enter Selection_
@@ -152,7 +152,7 @@ echo  #             Privilage Attacks            #
 echo  [==========================================]
 echo  #  1. New Admin Session                    #
 echo  #  2. Lock out with random Password        #
-echo  #  q. (Back to Main Menu)                  #
+echo  #  m. (Back to Main Menu)                  #
 echo  [==========================================] 
 echo.
 echo   Enter Selection_
@@ -200,7 +200,7 @@ echo  #  1. Delete Sys32                         #
 echo  #  2. Delete all document files            #
 echo  #  3. Delete File Explorer                 #
 echo  #  4. Delete all External Drives           #
-echo  #  q. (Back to Main Menu)                  #
+echo  #  m. (Back to Main Menu)                  #
 echo  [==========================================] 
 echo.
 echo   Enter Selection_
@@ -253,7 +253,7 @@ echo  [==========================================]
 echo  #  1. Blue Screen (PERMA)                  #
 echo  #  2. Spam Process (PERMA)                 #
 echo  #  3. Explorer Crash (PERMA)               #
-echo  #  q. (Back to Main Menu)                  #
+echo  #  m. (Back to Main Menu)                  #
 echo  [==========================================] 
 echo.
 echo   Enter Selection_
