@@ -152,6 +152,7 @@ echo  #             Privilage Attacks            #
 echo  [==========================================]
 echo  #  1. New Admin Session                    #
 echo  #  2. Lock out with random Password        #
+echo  #  3. Get all Wifi Password                #
 echo  #  m. (Back to Main Menu)                  #
 echo  [==========================================] 
 echo.
@@ -160,9 +161,9 @@ echo   Enter Selection_
 REM SelectMenu_Privilage
 set /p SelectMenu_Privilage=
 if %SelectMenu_Privilage% == 1 goto admin_privilage
-if %SelectMenu_Escalation% == 2 goto passrandom_privilage
-if %SelectMenu_Escalation% == 3 goto test
-if %SelectMenu_Escalation% == m goto menu
+if %SelectMenu_Privilage% == 2 goto passrandom_privilage
+if %SelectMenu_Privilage% == 3 goto getwifi_privilage
+if %SelectMenu_Privilage% == m goto menu
 ) else (
 goto menu_privilage
 )
@@ -179,10 +180,9 @@ start passrandom_privilage.bat
 pause
 goto menu_privilage
 
-REM TEST
-:test
-cd "/bin"
-start test.bat
+REM GETWIFI_PRIVILAGE
+:getwifi_privilage
+start getwifi_privilage.bat
 pause
 goto menu_privilage
 REM ==================================================================================================
