@@ -10,4 +10,5 @@ Mister_Chaos is a tool coded in batch, you must use it in administrator to have 
 
 ## Acknowledgments
 
-* Boris / DOS Scripting
+* Boris
+* Scriptax
