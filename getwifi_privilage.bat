@@ -8,6 +8,7 @@ echo.
 echo  [==========================================]
 echo  #          WIFI Password Grabber           #
 echo  [==========================================]
+echo                              By Webious_ (c)
 echo.
 echo Do CTRL+C to exit the tool
 echo.
@@ -15,7 +16,7 @@ pause
 echo.
 netsh wlan show profiles | find ":"
 echo.
-echo Type the Wifi Name:
+echo Type the Wifi Name then hit ENTER:
 echo.
 
 set /p WIFI=
